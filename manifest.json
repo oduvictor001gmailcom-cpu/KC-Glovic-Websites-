@@ -1,0 +1,22 @@
+{
+  "name": "KC Glovic Logistics",
+  "short_name": "KC Glovic",
+  "description": "Fast & Reliable Delivery Services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6a11cb",
+  "theme_color": "#2575fc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "victor-photo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "victor-photo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
