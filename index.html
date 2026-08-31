@@ -205,11 +205,36 @@
       .hero h2 {
         font-size: 32px;
       }
+nav {
+      background: white;
+      padding: 15px 10px;
+      text-align: center;
+      position: sticky;
+      top: 10px;
+      z-index: 1000;
+      margin: 15px 4%;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      border: 1px solid #eee;
+    }
 
-      nav a {
-        display: inline-block;
-        margin: 5px;
-        font-size: 14px;
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 4px 6px;
+      font-weight: 600;
+      display: inline-block;
+      font-size: 13px;
+      padding: 10px 14px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #f5a623;
+      color: white;
+    }
+      
       }
     }
   </style>
